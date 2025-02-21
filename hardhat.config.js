@@ -1,6 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
 require("@nomicfoundation/hardhat-ethers");
+require("@openzeppelin/hardhat-upgrades");
+
 
 /** @type import('hardhat/config').HardhatUserConfig */
 // const ALCHEMY_API_KEY = "Japd4jMfawgqY0HuVrZlKNlAMCDEplKW";
