@@ -6,7 +6,7 @@ const RPC_URL = "http://127.0.0.1:9944"; // Update to your Ethereum node RPC
 const PRIVATE_KEY = "d04eed5731e19c5dd8d79c507d15a50119d2f9b23efb9da986ff53e5dbe20d8e";  // Use a funded private key for testing
 const CONTRACT_ADDRESS = "0x248e9889986E13f4fD8A5852122C80C75e744E99"; // Proxy address
 const RECEIVER = "0x43F3c74EBe6A640785306535C05AAd7e5AdA1673"; // Recipient
-const NUM_TRANSACTIONS = 100; // Adjust as needed
+const NUM_TRANSACTIONS = 1000; // Adjust as needed
 const TRANSFER_AMOUNT = ethers.parseUnits("1", 18); // 1 token
 
 async function main() {

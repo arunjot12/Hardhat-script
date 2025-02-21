@@ -17,6 +17,7 @@
     "hardhat": "^2.22.12"
   },
   "dependencies": {
-    "@openzeppelin/contracts-upgradeable": "4.9.6"
+    "@openzeppelin/contracts-upgradeable": "4.9.6",
+    "@polkadot/api": "^15.6.1"
   }
 }
