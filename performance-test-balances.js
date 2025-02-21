@@ -5,7 +5,7 @@ const { performance } = require('perf_hooks');
 const RPC_URL = "http://127.0.0.1:9944"; // Update with your Ethereum node
 const PRIVATE_KEY = "d04eed5731e19c5dd8d79c507d15a50119d2f9b23efb9da986ff53e5dbe20d8e"; // Sender's private key from MetaMask
 const RECEIVER = "0x56bB7B104E263164871a55dD5f489A87Dc3E4D38"; // Receiver's MetaMask address
-const NUM_TRANSACTIONS = 100; // Adjust based on testing needs
+const NUM_TRANSACTIONS = 900; // Adjust based on testing needs
 const TRANSFER_AMOUNT = ethers.parseEther("0.01"); // Sending 0.01 ETH per tx
 
 async function main() {
