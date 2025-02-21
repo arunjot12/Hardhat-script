@@ -2,7 +2,7 @@ const { ethers, upgrades } = require("hardhat");
 const os = require('os');
 const { performance } = require('perf_hooks');
 
-const NUM_TRANSACTIONS = 500; // Adjust based on testing needs
+const NUM_TRANSACTIONS = 5000; // Adjust based on testing needs
 
 async function main() {
     const [deployer] = await ethers.getSigners();
